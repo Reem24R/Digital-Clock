@@ -1,0 +1,34 @@
+
+body
+{
+    background-color: rgb(186, 212, 243);
+    font-family:'Courier New', Courier, monospace;
+    /* align-items: center; */
+}
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.container 
+{
+    border-radius: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,0.3)), url('travel_buenos-aires_4.jpg');
+}
+#session
+{
+    margin-left: 10px;
+}
